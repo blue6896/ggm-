@@ -1,4 +1,6 @@
 
+# multiplot function is from the website "http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_%28ggplot2%29/"
+# in Winston Chang's cookbook
 fig1show <- function(nn){
 
 nn<-10000
@@ -105,7 +107,7 @@ p1<-    qplot(x=x, y=y,
 p1<-p1 + labs(x = "Weight")
 p1<-p1 + labs(y = "Accuracy")
 
-tiff(filename="figure1.tiff",width = 4000, height = 3200, units = "px", res = 800, compression = 'lzw')
+tiff(filename="fig1.tiff",width = 4000, height = 3200, units = "px", res = 800, compression = 'lzw')
 multiplot(p1,cols=1)
 
 hiyeah2<-c()
