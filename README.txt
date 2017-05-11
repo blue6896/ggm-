@@ -1,5 +1,9 @@
 R codes for the simulation of Gaussian Graphical Models with R package QUIC 
 
+<Initialization>
+
+Please download and install R package QUIC and all prerequisite R packages for QUIC installation 
+
 <Files> 
 
 SIMUGENERATE.R generates simulated input matrix 
