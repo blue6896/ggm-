@@ -1,2 +1,2 @@
 # ggm-
-# Simulation for Placenta Metal Network 
+# Simulation for weighted gaussian graphical models 
