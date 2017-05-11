@@ -11,8 +11,8 @@ SIMUFINDTPTN.R computes True positive rates (TPR), True negative rates (TNR), an
 <How to Run>
 
 In this version, if you run SIMUMERGEALL.R (run by test.sh using qsub, if possible), this program implements
-weighted Gaussian Graphical Models on simulated data. Files fig1show.R and fig2show.R genearting figure1.tiff 
-and figure2.tiff each, are run if you run SIMUMERGEALL.R. Currently the variable repe, the number of replication
+weighted Gaussian Graphical Models on simulated data. Files fig1show.R and fig2show.R genearting fig1.tiff 
+and fig2.tiff each, are run if you run SIMUMERGEALL.R. Currently the variable repe, the number of replication
 in SIMUMERGEALL.R code is set to 500. 
 
 Please e-mail me at jai.woo.lee.gr@dartmouth.edu if you have any questions
