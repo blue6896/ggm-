@@ -86,7 +86,7 @@ p2<-    qplot(x=x, y=y,
 p2<-p2 + labs(x = "Weight")
 p2<-p2 + labs(y = "Accuracy")+ theme(plot.title = element_text(size=8.6),legend.title = element_blank())
 #tiff(filename="0223caseresults2.jpg")
-tiff(filename="figure2.tiff",width = 4000, height = 3200, units = "px", res = 800, compression = 'lzw')
+tiff(filename="fig2.tiff",width = 4000, height = 3200, units = "px", res = 800, compression = 'lzw')
 multiplot(p2,cols=1)
 
 hiyeah<-c()
