@@ -8,7 +8,7 @@ Please download and install R package QUIC and all prerequisite R packages for Q
 
 SIMUGENERATE.R generates simulated input matrix 
 SIMUPARAMETE.R weights hub nodes or non-hub nodes in simulated input matrix
-SIMUFINDTUNR.R finds tuning paramters for AIC and BIC
+SIMUFINDTUNE.R finds tuning paramters for AIC and BIC
 REALTUNECVAL.R finds tuning paramters for Cross-Validation 
 SIMUFINDTPTN.R computes True positive rates (TPR) and True negative rates (TNR)
 
