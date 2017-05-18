@@ -19,6 +19,21 @@ weighted Gaussian Graphical Models on simulated data. Files fig1show.R and fig2s
 and fig2.tiff each, are run if you run SIMUMERGEALL.R. Currently the variable repe, the number of replication
 in SIMUMERGEALL.R code is set to 500. 
 
+For SIMUMERGEALL.R, you can modify parameters of the functions to make data matrix as you want. 
+parameters: 
+ nn: number of genes 
+ samples: number of observations for each gene 
+ case: different scenarios weighting nodes => when case =1, only hub nodes are weighted, when case=2, 
+ half of hub nodes and half of non-hub nodes are weighted, when case =3, only non-hub nodes are weighted 
+ and when case =4, randomly chosen nodes are weighted. 
+ numhub: number of hubs on network 
+ bighub: the number of neighboring edges of hub nodes are controlled 
+ shlb: the lower bound of neighboring edges of non-hub nodes are controlled 
+ shub: the upper bound of neighboring edges of non-hub nodes are controlled 
+ bigwgt: the weight for nodes 
+ disconnected: the number of nodes without any neighboring edges 
+
+
 Please e-mail me at jai.woo.lee.gr@dartmouth.edu if you have any questions
 
 Thank you!
