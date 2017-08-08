@@ -1,3 +1,4 @@
+This folder is located at https://github.com/blue6896/ggm-/
 R codes for the simulation of Gaussian Graphical Models with R package QUIC 
 
 <Initialization>
