@@ -49,7 +49,7 @@ for (j in 1:multirho){                                    ## it was 2:12     ###
   a<-QUIC(s, maxIter=valofmaxIter ,tol=valoftol,rho=rhoval)
     tempC <- as.matrix((a$X != 0) + 0)
         tempAIC <- -2*(a$regloglik) + 2*(sum(tempC)-100)
-        tempBIC <- -2*(a$regloglik) + log(nn)*(sum(tempC)-100)
+        tempBIC <- -2*(a$regloglik) + log(samples)*(sum(tempC)-100)
 
         BICmat <- c(BICmat, tempBIC)
         AICmat <- c(AICmat, tempAIC)
